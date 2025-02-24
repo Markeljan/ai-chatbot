@@ -25,7 +25,7 @@ To develop the chatbot template locally, you can clone the repository and link i
 ```bash
 git clone https://github.com/<username>/<repository>
 cd <repository>
-pnpm install
+bun install
 
 vercel link
 vercel env pull
@@ -34,7 +34,7 @@ vercel env pull
 After linking the project, you can start the development server by running:
 
 ```bash
-pnpm dev
+bun dev
 ```
 
 The chatbot template will be available at `http://localhost:3000`.
